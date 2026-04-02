@@ -28,4 +28,8 @@ public class ArenaOpponent {
     public String getName() { return name; }
     public int getHealth() { return health; }
     public int getAttackPower() { return attackPower; }
+
+    public int getMaxHealth() {
+        return maxHealth;
+    }
 }
